@@ -76,5 +76,9 @@ d * (f,g) = \int_{a}^{b}|f(t)-g(t)dt| < \delta
 $$
 
 $$
-|\int_{a}^{b} f(t) - g(t) dt| = |\overset{lim}{n\to \infty} \sum_{i = 1}^{n}Mi(t_{i}-t_{i-1})| \le \overset{lim}{n\to \infty}\sum_{i=1}^{n}|M_{i}(t_{i}-t_{i-1})| = \int_{a}^{b} |f(t) - g(t) dt| < \delta = \epsilon
+|\int_{a}^{b} f(t) - g(t) dt| = |\overset{lim}{n\to \infty} \sum_{i = 1}^{n}Mi(t_{i}-t_{i-1})| \le 
+$$
+
+$$
+\overset{lim}{n\to \infty}\sum_{i=1}^{n}|M_{i}(t_{i}-t_{i-1})| = \int_{a}^{b} |f(t) - g(t) dt| < \delta = \epsilon
 $$
